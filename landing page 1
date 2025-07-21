@@ -40,10 +40,9 @@
       font-size: 1.6rem;
       margin-bottom: 1.5rem;
     }
-    /* ✅ 列表整体居中，图标和文字垂直对齐 */
     .container ul {
-      display: inline-block;   /* ✅ 让列表整体在容器中居中 */
-      text-align: left;        /* ✅ 列表内部左对齐 */
+      display: inline-block;
+      text-align: left;
       padding-left: 0;
       list-style: none;
       margin-bottom: 2rem;
@@ -51,11 +50,11 @@
 
     .container li {
       display: flex;
-      align-items: center;      /* ✅ 符号和文字垂直居中 */
+      align-items: center;
       font-size: 1.05rem;
       margin: 0.7rem 0;
       color: #222;
-      gap: 8px;                 /* ✅ 符号与文字之间的间距 */
+      gap: 8px;
     }
     .cta-button {
       display: inline-block;
