@@ -1,0 +1,90 @@
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply Today, Received Today</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #f7faff, #d9ecff);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    .container {
+      background: #ffffff;
+      padding: 2.5rem 2rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+    /* ✅ 圆形头像样式 */
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .container h1 {
+      color: #0a2540;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+    /* ✅ 列表整体居中，图标和文字垂直对齐 */
+    .container ul {
+      display: inline-block;   /* ✅ 让列表整体在容器中居中 */
+      text-align: left;        /* ✅ 列表内部左对齐 */
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .container li {
+      display: flex;
+      align-items: center;      /* ✅ 符号和文字垂直居中 */
+      font-size: 1.05rem;
+      margin: 0.7rem 0;
+      color: #222;
+      gap: 8px;                 /* ✅ 符号与文字之间的间距 */
+    }
+    .cta-button {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="avatar" src="Prime_trust.png" alt="Profile Picture" />
+    <h1>📌 Get Apply with Simple Ways</h1>
+    <ul>
+      <li>❌ <span>No Document Required</span></li>
+      <li>⏱️ <span>Process within 30 minutes</span></li>
+      <li>🟢 <span>Interest 2% only</span></li>
+    </ul>
+    <a class="cta-button" href="https://api.whatsapp.com/send?phone=6581703143&text=Apply loan from TIKTOK." target="_blank">
+      📲 Singapore Licensed Advisor
+    </a>
+  </div>
+</body>
+</html>
