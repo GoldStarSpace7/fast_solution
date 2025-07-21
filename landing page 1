@@ -25,7 +25,6 @@
       width: 100%;
       text-align: center;
     }
-    /* ✅ 圆形头像样式 */
     .avatar {
       width: 90px;
       height: 90px;
